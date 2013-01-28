@@ -3,6 +3,10 @@
 <%# end %>
 
 <!-- anyway, better do the above I guess  -->
+<p><a href="/imageresizer">« resize another image</a></p>
+<p><strong>Your resized image (in JPEG format) is ready!</strong> Drag to your desktop or right-click and save as:</p>
 <% images.each do |img| %>
   <img src="<%= img %>">
 <% end %>
+
+<!-- Script and application by Josef Richter - http://www.rubydesigner.com/blog/resizing-images-before-upload-using-html5-canvas -->

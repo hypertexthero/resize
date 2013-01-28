@@ -1,8 +1,14 @@
 <form id="form" action="submit" method="post" accept-charset="utf-8" enctype="multipart/form-data">
-  <input id="fileinput" data-maxwidth="620" data-maxheight="620" type="file" name="file[]" multiple/>
-  <input type="submit" value="Upload &rarr;">
+    <label>1. Choose an image:</label>
+    <input id="fileinput" data-maxwidth="550" data-maxheight="550" type="file" name="file[]" multiple/>
+    <div id="preview"></div>
+    <br>
+    <label>2.</label>
+    <input type="submit" value="Resize to 550px">
+    <small style="color:#999;">the image will only be resized if its longest side is greater than 550 pixels</small>
 </form>
 
-<div id="preview"></div>
-
 <script src="preprocess.js" type="text/javascript" charset="utf-8"></script>
+    <br>
+    <br>
+<!-- Script and application by Josef Richter - http://www.rubydesigner.com/blog/resizing-images-before-upload-using-html5-canvas -->

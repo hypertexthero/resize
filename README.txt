@@ -13,4 +13,4 @@ Because people often upload 5MB big 3000x2000px PNGs that are then scaled down t
 7. send it to server
 8. save it on server side
 
-(c) Josef Richter
+Original Script (c) <a href="http://www.rubydesigner.com/blog/resizing-images-before-upload-using-html5-canvas">Josef Richter</a>
